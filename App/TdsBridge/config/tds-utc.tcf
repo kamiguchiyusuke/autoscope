@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExportConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StartDate>2003-05-04T00:00:00Z</StartDate>
+  <EndDate>2026-09-14T00:00:00Z</EndDate>
+  <FormatIndex>1</FormatIndex>
+  <Delimiter>,</Delimiter>
+  <Elements />
+  <GmtOffset>0</GmtOffset>
+  <Dst>0</Dst>
+  <HeaderRow>true</HeaderRow>
+  <UseAskPrices>false</UseAskPrices>
+  <Timeframes />
+</ExportConfiguration>

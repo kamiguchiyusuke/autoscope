@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><UseWPF>true</UseWPF><ApplicationManifest>app.manifest</ApplicationManifest><AssemblyName>AutoScope</AssemblyName><RootNamespace>ArmadaAnalyzer</RootNamespace><ApplicationIcon>Assets/scope.ico</ApplicationIcon><Version>1.1.0</Version><InformationalVersion>1.01</InformationalVersion><SatelliteResourceLanguages>ja</SatelliteResourceLanguages><Product>Auto Scope</Product><Description>Windows用ストラテジー分析アプリ</Description></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../AutoBacktest/AutoBacktest.csproj"/><ProjectReference Include="../Core/Core.csproj"/><None Include="../artifacts/ArmadaCompute.dll" Link="ArmadaCompute.dll" CopyToOutputDirectory="PreserveNewest"/><None Include="../artifacts/ArmadaSqlite.dll" Link="ArmadaSqlite.dll" CopyToOutputDirectory="PreserveNewest"/></ItemGroup>
+  <ItemGroup><None Update="Assets/AutoScope-1.01.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" /></ItemGroup><ItemGroup><None Update="Assets/control.wav" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"/></ItemGroup>
+<ItemGroup><Resource Include="Assets/scope-256.png"/><Resource Include="Assets/scope.ico"/></ItemGroup><ItemGroup><None Update="TdsBridge/**/*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" /><None Update="TdsBridge/**/__pycache__/**;TdsBridge/tests/**;TdsBridge/build/**;TdsBridge/**/*.log" CopyToOutputDirectory="Never" CopyToPublishDirectory="Never" /></ItemGroup></Project>
+
+

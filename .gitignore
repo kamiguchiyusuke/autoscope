@@ -1,0 +1,21 @@
+bin/
+obj/
+.vs/
+*.user
+artifacts/
+.local/
+Workspaces/
+diagnostics.log
+*.db
+*.db-wal
+*.db-shm
+*.col
+*.tmp
+*.nettrace
+
+# 再配布物（Microsoft VC++ランタイムを含むCPythonバイナリ）はリポジトリに含めない
+App/TdsBridge/python/*
+!App/TdsBridge/python/python312._pth
+!App/TdsBridge/python/LICENSE.txt
+App/TdsBridge/AutoScopeMetadata.dll
+__pycache__/

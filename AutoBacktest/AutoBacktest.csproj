@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><AssemblyName>ArmadaScopeFX.AutoBacktest</AssemblyName></PropertyGroup><ItemGroup><None Update="LICENSE.txt" CopyToOutputDirectory="PreserveNewest" Link="Legal/MT4BatchReporter-LICENSE.txt" /></ItemGroup></Project>
